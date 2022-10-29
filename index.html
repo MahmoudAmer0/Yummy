@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark">
+
+
+    <!-- Step0 LoadingScreen -->
+    <div class="loadingScreen bg-secondary vh-100 justify-content-center align-items-center">
+
+        <i class="spinner-border text-light fa-spin fa-1x"> </i>
+
+    </div>
+
+    <!-- Step1 Search -->
+
+    <section class=" text-center m-auto ">
+        <div id="search-container" class=" container  d-flex justify-content-between">
+            <!-- <div class="row w-75  mt-5 m-auto ">
+                <div class="col-md-6 rounded mb-3 ">
+                    <div>
+                        <input class="form-control bg-transparent text-white" type="text"
+                            placeholder="Search By First Name">
+                    </div>
+                </div>
+                <div class="col-md-6 rounded">
+                    <div>
+                        <input class="form-control mb-2 bg-transparent text-white" type="text"
+                            placeholder="Search By Name">
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+    </section>
+
+    <!-- Step2 Sidebar -->
+
+    <section class="top-0 position-absolute zzzz ">
+        <div class="sidebar-nav bg-white text-center">
+
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <div class="toggel-menu strap-toggle-menu">
+                <i class="fa-solid fa-align-justify"></i>
+            </div>
+            <div class="social-icons">
+                <div>
+                    <span>
+                        <i class="fa-solid fa-globe" target="_blank"></i>
+                    </span>
+                </div>
+                <div class="pt-2">
+                    <span>
+                        <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step3  Nav Tab Menu-->
+        <div class="nav-tab-menu close-menu bg-dark">
+            <div class="nav-item">
+                <ul>
+
+                    <li id="search" class="item1"><a class="nav-category" href="#" data-list="search">Search</a>
+                    </li>
+                    <li id="categories" class="item2"><a class="nav-category" href="#"
+                            data-list="categories">Categories</a>
+                    </li>
+                    <li id="area" class="item3"><a class="nav-category" href="#" data-list="a">Area</a></li>
+                    <li id="ingredients" class="item5"><a class="nav-category" href="#" data-list="i">Ingredients</a>
+                    </li>
+                    <li id="contactus" class="item6"><a class="nav-category" href="#contact-us"
+                            data-list="contact">Contact Us</a></li>
+
+                </ul>
+            </div>
+            <div class="nav-social-item my-4">
+                <div class="text-center">
+                    <a href="https://facebook.com" target="_blank"><i
+                            class="fa-brands fa-facebook-f text-white me-3"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i
+                            class="fa-brands fa-twitter text-white me-3"></i></a>
+                    <a href="https://google.com" target="_blank"><i class="fa fa-globe text-white"></i></a>
+                </div>
+                <div class="pt-3 text-white">
+                    <span class="smallit p-2"> Copyright © 2022 All Rights Reserved. </span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Everything will be here -->
+    <section class="py-5">
+
+        <section class="container text-center">
+
+            <div class="row" id="res">
+
+
+            </div>
+
+        </section>
+
+        <section class="container w-75 text-center my-1 py-2 mt-5 position-relative">
+            <div class="loading-container">
+                <div class="sm-loading position-absolute ">
+                    <i class="spinner-border text-light fa-spin fa-1x"></i>
+                </div>
+            </div>
+
+            <div class="row mt-3 p-2" id="rowData">
+
+            </div>
+
+        </section>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Area -->
+
+    <!-- <section class="py-5">
+        <div class="container text text-center">
+            <div class="row mt-3 p-2" id="rowData">
+                <div class="col-md-6 col-lg-3 my-3 shadow rounded">
+                    <div class="post">
+
+                        <i class="fa-solid fa-city fa-3x"></i>
+                        <h2 class="text-white">American</h2>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </section> -->
+
+
+    <!-- Details -> Instructions  -->
+
+
+    <!-- <div class="container">
+        <div class="row mt-3 p-2" id="rowData">
+
+            <div class="col-md-4">
+
+                <img class="w-100" src="images/turkeymeatloaf.jpg" alt="Turkey Meat">
+                <h1 class="text-white text-center mt-2"> Turkey Meatloaf </h1>
+
+            </div>
+            <div class="col-md-8 text-white">
+                <h2>Instructions</h2>
+                <p>Heat oven to 180C/160C fan/gas 4. Heat the oil in a large frying pan and cook the onion for 8-10 mins
+                    until softened. Add the garlic, Worcestershire sauce and 2 tsp tomato purée, and stir until
+                    combined. Set aside to cool. Put the turkey mince, egg, breadcrumbs and cooled onion mix in a large
+                    bowl and season well. Mix everything to combine, then shape into a rectangular loaf and place in a
+                    large roasting tin. Spread 2 tbsp barbecue sauce over the meatloaf and bake for 30 mins. Meanwhile,
+                    drain 1 can of beans only, then pour both cans into a large bowl. Add the remaining barbecue sauce
+                    and tomato purée. Season and set aside. When the meatloaf has had its initial cooking time, scatter
+                    the beans around the outside and bake for 15 mins more until the meatloaf is cooked through and the
+                    beans are piping hot. Scatter over the parsley and serve the meatloaf in slices.</p>
+                <p> <span class="strong"> Area </span> : British</p>
+                <p> Category <span class="strong"></span> : Miscellaneous </p>
+                <h3> <span class="strong"> Recipes</span> : </h3>
+                <ul class="d-flex list-unstyled" id="recipes">
+                    <li class="my-3 mx-1 p-1 alert alert-success rounded">1 tblsp Olive Oil</li>
+                    <li class="my-3 mx-1 p-1 alert alert-success rounded">1 large Onion</li>
+                    <li class="my-3 mx-1 p-1 alert alert-success rounded">1 clove peeled crushed Garlic</li>
+                    <li class="my-3 mx-1 p-1 alert alert-success rounded">2 tblsp Worcestershire Sauce</li>
+                    <li class="my-3 mx-1 p-1 alert alert-success rounded">3 tsp Tomato Puree</li>
+                    <li class="my-3 mx-1 p-1 alert alert-success rounded">500g Turkey Mince</li>
+                    <li class="my-3 mx-1 p-1 alert alert-success rounded">1 large Eggs</li>
+                    <li class="my-3 mx-1 p-1 alert alert-success rounded">85g Breadcrumbs</li>
+                    <li class="my-3 mx-1 p-1 alert alert-success rounded">2 tblsp Barbeque Sauce</li>
+                    <li class="my-3 mx-1 p-1 alert alert-success rounded">800g Cannellini Beans</li>
+                    <li class="my-3 mx-1 p-1 alert alert-success rounded">2 tblsp Parsley</li>
+                </ul>
+                <h3> <span class="strong"> Tags : </span></h3>
+                <ul class="d-flex">
+                    <li class="my-2 mx-1 alert-danger rounded list-unstyled text-center"> Alcoholic</li>
+                </ul>
+                <a class="btn btn-success text-decoration-none text-white" href="#link" target="_blank"> Source </a>
+                <a class="btn btn-danger text-decoration-none text-white" href="#link"> Youtube </a>
+
+            </div>
+        </div>
+    </div> -->
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/test.js"></script>
+
+</body>
+
+</html>
